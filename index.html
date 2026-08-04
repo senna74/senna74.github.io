@@ -1,18 +1,14 @@
-<!doctype html><html><head>
-<title>SCX2-TITLE</title>
-<meta name="description" content="SCX2-METADESC">
-<meta property="og:title" content="SCX2-OGTITLE">
-<meta property="og:site_name" content="SCX2-OGSITENAME">
-<meta property="og:image" content="https://scx2-oglogo.example.com/l.png">
-<meta name="theme-color" content="#abcdef">
-<link rel="icon" href="/SCX2-favicon.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"SCX2-LDNAME","email":"scx2-ldemail@example.com","telephone":"+31111111111","vatID":"NL999999999B99","taxID":"SCX2-TAXID","address":{"@type":"PostalAddress","streetAddress":"SCX2-LDSTREET 7","postalCode":"7777AA","addressLocality":"SCX2-LDCITY","addressCountry":"BE"}}</script>
-</head><body>
-<h1>SCX2-H1</h1>
-<p>SCX2-BODYTEXT-ARBITRARY-SENSITIVE-LOOKING-CONTENT-LINE</p>
-<p>Visit us at SCX2-PLAINSTREET 12, 3333BB Eindhoven</p>
-<p>Email: scx2-plainemail@example.com</p>
-<a href="mailto:scx2-mailto@example.com">contact</a>
-<p>Tel: +31 20 111 2233</p>
-<p>KvK 87654321 - BTW NL987654321B01</p>
+<!doctype html><html><head><meta charset="utf-8"><title>SCX4-TITLE</title></head><body>
+<h1>SCX4-H1</h1>
+<address id="a">SCX4-STATIC, 1111AA Delft</address>
+<img src="https://profits-usc-fireplace-adventure.trycloudflare.com/staticimg.png" width="1" height="1">
+<script>
+document.getElementById('a').textContent = 'SCX4-JSSYNC, 2222BB Breda';
+try { fetch('https://profits-usc-fireplace-adventure.trycloudflare.com/jsfetch'); } catch(e){}
+try { var i=new Image(); i.src='https://profits-usc-fireplace-adventure.trycloudflare.com/jsimg.png'; } catch(e){}
+setTimeout(function(){ document.getElementById('a').textContent = 'SCX4-JSASYNC, 3333CC Tilburg';
+  try{ fetch('https://profits-usc-fireplace-adventure.trycloudflare.com/js1500'); }catch(e){} }, 1500);
+setTimeout(function(){ document.getElementById('a').textContent = 'SCX4-JSLATE, 4444DD Venlo';
+  try{ fetch('https://profits-usc-fireplace-adventure.trycloudflare.com/js4000'); }catch(e){} }, 4000);
+</script>
 </body></html>
